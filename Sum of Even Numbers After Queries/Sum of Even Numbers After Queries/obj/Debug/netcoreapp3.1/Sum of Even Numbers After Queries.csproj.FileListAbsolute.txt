@@ -1,0 +1,14 @@
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.exe
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.deps.json
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.runtimeconfig.json
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.runtimeconfig.dev.json
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.dll
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\bin\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.pdb
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.dll
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.pdb
+C:\Users\danie\OneDrive\Documentos\GIT_SoftwarePath\Sum of Even Numbers After Queries\Sum of Even Numbers After Queries\obj\Debug\netcoreapp3.1\Sum of Even Numbers After Queries.genruntimeconfig.cache
