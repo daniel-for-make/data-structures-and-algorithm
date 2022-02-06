@@ -4,7 +4,7 @@ namespace Sum_of_Even_Numbers_After_Queries
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int[] nums = new int[] { 1, 2, 3, 4 };
 
@@ -19,16 +19,15 @@ namespace Sum_of_Even_Numbers_After_Queries
 
 
 
-            for (int coluna = 0; coluna < nums.Length; coluna++)
+            for (int coluna = 0; coluna < queries.GetLength(0); coluna++)
             {
-
                 if (coluna == queries[coluna, 1]) //irá ver se o apontador tme o mesmo vallor que esta  namlinha 1 coluna x
                 {
 
                     // se tiver o mesmo valor vai somar
                     Console.WriteLine("Apontador: " + coluna + "\tQueries:  " + queries[coluna, 1]);
 
-                    nums[coluna] += queries[coluna, 0];
+                    nums[coluna] +=  queries[coluna, 0];
 
                 }
                 else //se nao tiver, bem.... logo se ve
@@ -41,6 +40,13 @@ namespace Sum_of_Even_Numbers_After_Queries
 
 
                 }
+
+                for (int linha =0; linha < queries.GetLength(0); linha++)
+                {
+                    
+
+                }
+
 
 
             }
@@ -55,7 +61,7 @@ namespace Sum_of_Even_Numbers_After_Queries
             //fazer as somas de todos os numeros pares
             for (int i = 0; i < nums.Length - 2; i++)
             {
-                if (nums[i] % 2 == 0 && nums[i + 1] % 2 == 0)
+                if ( nums[i] % 2 == 0 && nums[i + 1] % 2 == 0 )
                 {
 
                     answer[i] = nums[i] + nums[i + 1]; //vai guardar a soma dos numeros pares  
