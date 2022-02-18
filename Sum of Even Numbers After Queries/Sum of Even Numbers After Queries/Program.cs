@@ -8,35 +8,24 @@ namespace Sum_of_Even_Numbers_After_Queries
     {
         static void Main()
         {
-            int temporario = 0;
-            int[] nums = new int[] { 1, 2, 3, 4 };
-
-            int[,] queries = new int[,] { {1, 0},
-                {-3, 1},
-                { -4,0 },
-                { 2,3 }
-
-            };
+            int temporario = 0 ;
+            int[] nums = new int[] { 1 };
+            int[,] queries = new int[,] { {4 ,0}};
 
             int[] answer = new int[nums.Length];
-            int[] pares = new int[nums.Length];
+            //int[] pares = new int[nums.Length];
             
-                
+            
             for (int coluna = 0; coluna < nums.Length; coluna++)
             {
                
                 if (coluna == queries[coluna, 1]) //irá ver se o apontador tme o mesmo vallor que esta  namlinha 1 coluna x
                 {
 
-                    // se tiver o mesmo valor vai somar
+                    // se tiver o mesmo valor vai soma
                     nums[coluna] +=  queries[coluna, 0];
 
-                    //if (nums[coluna] % 2 == 0)
-                    //{
-
-                    //    pares[coluna] = nums[coluna];
-
-                    //} 
+               
                   
                 }
                 else 
@@ -52,10 +41,19 @@ namespace Sum_of_Even_Numbers_After_Queries
 
                    
                 }
-                Console.WriteLine("SOMOU " + "{0}", nums[coluna]); //cada vez que somar eu quero ver o que esta lá dentro
+
+                for(int i=0; i < answer.Length; i++) //tenho de fazer um loop a parte para que possa fazer a soma de todo o array
+                {
+                    if (nums[i] %2==0)
+                    {
+                        answer[coluna] += nums[i];
+                    }
+                        
+
+                }
+
             }
 
-          //  pares.ForEach(Console.WriteLine);
             
 
 
@@ -64,7 +62,7 @@ namespace Sum_of_Even_Numbers_After_Queries
             for (int i = 0; i < answer.Length; i++)
             {
                // answer[i] = pares[i] + pares[i + 1];
-                Console.WriteLine("{0}", nums[i]);
+                Console.WriteLine("{0}", answer[i]);
 
             }
 
