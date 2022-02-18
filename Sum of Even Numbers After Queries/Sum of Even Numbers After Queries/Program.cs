@@ -13,7 +13,7 @@ namespace Sum_of_Even_Numbers_After_Queries
             int[,] queries = new int[,] { {4 ,0}};
 
             int[] answer = new int[nums.Length];
-            //int[] pares = new int[nums.Length];
+        
             
             
             for (int coluna = 0; coluna < nums.Length; coluna++)
@@ -24,10 +24,7 @@ namespace Sum_of_Even_Numbers_After_Queries
 
                     // se tiver o mesmo valor vai soma
                     nums[coluna] +=  queries[coluna, 0];
-
-               
-                  
-                }
+                 }
                 else 
                 {
 
@@ -39,8 +36,7 @@ namespace Sum_of_Even_Numbers_After_Queries
 
                     coluna = temporario;
 
-                   
-                }
+                                   }
 
                 for(int i=0; i < answer.Length; i++) //tenho de fazer um loop a parte para que possa fazer a soma de todo o array
                 {
@@ -53,10 +49,6 @@ namespace Sum_of_Even_Numbers_After_Queries
                 }
 
             }
-
-            
-
-
 
             Console.WriteLine("ARRAY Final: ");
             for (int i = 0; i < answer.Length; i++)
